@@ -1,0 +1,47 @@
+html {
+  font-family: "Poppins";
+}
+
+/* Navigation */
+.nav {
+  border: 1px solid #0F4976;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.nav li {
+  border: 1px solid #0F4976;
+  border-radius: 10px;
+  list-style: none;
+  padding: 10px;
+  color: #0F4976;
+}
+
+.nav li:hover {
+  background-color: #0F4976;
+  color: white;
+}
+
+/* Banner */
+
+.banner {
+  background-image: url("../Photos/Wolf.jpg");
+  background-size: cover;
+  height: 300px;
+  color: white;
+  padding-top: 200px;
+  border-bottom: 2px solid #0F4976;
+}
+
+.banner h1 {
+  text-align: left;
+  margin-left: 70px;
+  font-size: 40px;
+  border-bottom: 1px solid white;
+  margin-right: 70px;
+}
